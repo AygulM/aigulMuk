@@ -1,0 +1,1519 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    font-family: 'Gotham Pro','Arial', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+} 
+h1, h2{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
+}
+a{
+    font-size: 12px;
+    color: #59BBF2;
+    text-decoration: none; /*убрать подчеркивание*/
+}
+a:hover{
+    text-decoration: underline; /*подчеркивание при наведение*/
+}
+a:focus{
+    outline: orchid solid 1px; /*при нажатии TAB*/
+}
+a:active{/*чаще в моб устройствах*/
+    background: rgba(150, 150, 150, .5);
+}
+/*--header*/
+.header__video{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 689px;
+    z-index: -100;
+    overflow: hidden;
+}
+.header{
+    background: url("../img/fon-mask.png") no-repeat top right;
+    min-height: 750px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header__wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.navbar{
+    height: 40px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__content{
+    width: 509px;
+    height: 208px;
+    margin-top: 204px;
+    margin-bottom: 238px;
+}
+
+.navbar li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.header__nav{
+    display: flex;
+    position: relative;   
+    width: 644px;
+}
+.header__nav a{
+    color: black !important;
+    font-size: 14px;
+}
+.header__nav a:hover{
+    text-decoration: none;
+}
+
+.logo__slk, .nav__items{
+    position: absolute;
+}
+.logo__slk{
+    top: 0;
+}
+.logo__s{
+    left: 0;
+}
+.logo__l{
+    left: 35.304px;
+}
+.logo__k{
+    left: 48.54px;
+}
+.nav__items{
+    top: 6px;
+}
+.nav__item--1{
+    left: 139px;
+}
+.nav__item--2{
+    left: 289px;
+}
+.nav__item--3{
+    width: 99px;
+    left: 410px;
+}
+.nav__item--4{
+    left: 550px;
+}
+
+.header__nav--tel{
+    display: flex;
+    position: relative;
+    width: 325px;
+}
+.header__tel, .header__tel--number, .header__tel--order{
+    position: absolute;
+}
+.header__tel{
+    left: 0;
+    top: 14px;
+}
+.header__tel--number{
+    left: 20px;
+    top: 6px;
+    color: white;
+}
+.header__tel--order{
+    left: 165px;
+    width: 150px;
+    height: 40px;
+    background: #FFD155;
+    border-radius: 56px;
+    padding-top: 6px;
+    padding-left: 25px;
+}
+.header a{
+    color: white;
+}
+/*------main-----*/
+
+.main{
+    margin-top: 750px;
+}
+
+/*-----Sections----------*/
+.section__wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*products*/
+.products__wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 72px;
+    flex-wrap: wrap;
+}
+.products__item{
+    box-sizing: border-box;/*content-box---ширина и высота у контента*/
+    width: 380px;
+    height: 398px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+
+.product__item--first, .product__item--third{
+    background-color: #FFFFFF;
+}
+.product__item--second{
+    background-color: #59BBF2;
+}
+
+/*-----------------------*/
+.item__elips{
+    position: relative;
+    height: 193px;
+    width: 193px;
+    margin-top: 60px;
+    margin-left: 94px;
+}
+.aroud_elips{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.one{
+    position: absolute;
+    left: 75px;
+    bottom: 68px;
+}
+.two{
+    position: absolute;
+    left: 49px;
+    bottom: 67px;
+}
+.tri{
+    position: absolute;
+    left: 40px;
+    bottom: 56px;
+}
+
+.product__text{
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+/*-------advantage------*/
+.advantage__title{
+    margin-top: 53px;
+    margin-bottom: 103px;
+    text-align: center;
+}
+.advantage__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 123px;
+}
+.advantage__items{
+    height: 100px;
+    width: 350px;
+    display: flex;
+}
+/*    advantage img/svg    */
+.advantage__svg{
+    position: absolute;
+}
+.advantage__img{
+    position: relative;
+    height: 65px;
+    width: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.advantage__text{
+    height: 70px;
+    font-size: 18px;
+    margin: 10px;
+    padding-left: 20px;
+}
+.advantage__img--first{
+    width: 86px;
+}
+.down__rectangle{
+    bottom: 1px;
+}
+.advantage__text--first{
+    width: 191px;
+    padding-left: 10px;
+}
+
+.rectangle__down{
+    bottom: 0px;
+}
+.elips{
+    left: 16px;
+    bottom: 19px;
+}
+.check-mark{
+    position: absolute;
+    left: 28px;
+    bottom: 31px;
+}
+.advantage__text--second{
+    width: 234px;
+}
+
+.triangle-1{
+    left: 20px;
+}
+.triangle-2{
+    left: 0px;
+    bottom: 0px;
+}
+.triangle-3{
+    left: 35px;
+    bottom: 0px;
+}
+.advantage__text--third{
+    width: 260px;
+}
+
+.line_down{
+    left: 0px;
+    bottom: 0px;
+}
+.zigzag{
+    left: 12px;
+    bottom: 12px;
+}
+.minielips{
+    bottom: 25.4px;
+    left: 25.3px;
+}
+
+.advantage__text--fourth{
+    width: 260px;
+    padding-left: 30px;
+}
+
+.advantage__img--fifth{
+    height: 66px;
+}
+.downstar{
+    left: 32px;
+    bottom: 0pt;
+}
+.upstar{
+    left: 31px;
+    bottom: 45px;
+}
+.midlstar{
+    left: 0px;
+    bottom: 13px;
+}
+.advantage__text--fifth{
+    width: 234px;
+}
+
+.advantage__img--sixth{
+    height: 66px;
+    width: 64px;
+}
+.shield{
+    left: 0;
+    top: 0;
+}
+.shield-elips{
+    left: 13px;
+    top: 9px;
+}
+.shield-mark{
+    left: 28px;
+    top: 25px;
+}
+.advantage__text--sixth{
+    width: 328px;
+}
+
+
+/*-----Samples-------*/
+.samples .slider__wrapper{
+    position: relative;
+}
+.samples .slider__list{
+    height: 278px;
+    display: flex;
+    justify-content: space-between;
+}
+.samples__title{
+    text-align: center;
+    width: 635px;
+    height: 92px;
+    font-size: 40px;
+    margin: 0 auto;
+    margin-bottom: 95px;
+    margin-top: 134px;
+}
+.slider__button{
+    position: absolute;
+    top: 50%;
+}
+.slider__button--next{
+    left: 1300px;
+}
+.slider__button--prev{
+    left: -100px;
+}
+
+
+.slider__img{
+    width: 278px;
+    height: 278px;
+}
+.img--1{
+    border: 35px solid #F5EDE2;
+    border-radius: 10px;
+
+    background: url(../img/1.png);
+    background-size: cover;
+    background-position: center;
+}
+.img--2{
+    background: url(../img/2.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.img--3{
+    background: url(../img/3.png);
+    background-size: cover;
+}
+.img--4{
+    background: url(../img/4.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.slider__elips--1{
+    text-align: center;
+    margin-top: 56px;
+}
+
+
+/*-------------COMPARISON---------------*/
+.comparison__wrapper{
+    display: flex;
+}
+.comparison__title{
+    margin: 0 auto;
+    margin-top: 137px;
+    text-align: center;
+    width: 768px;
+    height: 78px;
+}
+
+.left__table{
+    width: 351px;
+}
+.right__table{
+    width: 351px;
+}
+.central__table{
+    width: 493px;
+}
+
+.comparison__table{
+    border-collapse: collapse;
+    margin-top: 129px;
+}
+th{
+    padding-bottom: 26px;
+}  
+td {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.table--mark{
+    position: relative;
+}
+.t--mark{
+    position: absolute;
+    left: 1px;
+    top: 0;
+}
+.mark--p{
+    position: absolute;
+    top: 0;
+    left: 36px;
+}
+.central__table div{
+    margin: 0 auto;
+}
+.central__table p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.table__svg{
+    position: absolute;
+}
+/*--printer--*/
+.ctable--printer{
+    position: relative;
+    width: 32px;
+    height: 30px;
+}
+.printer--1{
+    left: 8px;
+    top: 0;
+}
+.printer--2{
+    left: 0;
+    top: 6px;
+}
+.printer--3{
+    left: 8px;
+    bottom: 0;
+}
+/*----clock------*/
+.ctable--clock{
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+.clock--elips{
+    left: 0;
+    top: 0;
+}
+.clock--lines{
+    left: 14px;
+    top: 9px;
+}
+
+/*------using area-----*/
+.ctable--area{
+    position: relative;
+    width: 30px;
+    height: 18.2px;
+}
+.area--1{
+    left: 0;
+    top: 0;
+}
+.area--2{
+    left: 1.322px;
+    bottom: 0;
+}
+
+/*-----eco-------*/
+.ctable--eco{
+    position: relative;
+    width: 31.53px;
+    height: 30px;
+}
+.eco{
+    left: 0;
+    top: 0;
+}
+/*-----using-------------*/
+.ctable--using{
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+.using{
+    left: 0;
+    top: 0;
+}
+/*--------PET----------*/
+.pet__wrapper{
+    margin-left: auto;
+    width: 523px;
+}
+.pet__content{
+    display: flex;
+    height: 343px;
+    margin-bottom: 74.22px;
+    flex-wrap: wrap;
+}
+.pet__titlebutton{
+    position: relative;
+    width: 523px;
+    height: 153px;
+    margin-top: 133px;
+    margin-bottom: 50px;
+}
+.pet__title{
+    position: absolute;
+    top: 100px;
+    height: 33px;
+}
+
+.pet__text{
+    width: 100%;
+}
+.table__pet{
+    width: 520px;
+    margin: 0;
+}
+.table__pet td{
+    padding: 0;
+    max-height: 53px;
+    vertical-align: top;
+    border: white;
+}
+.td__pet{
+    width: 175px;
+}
+.tr__pet--one, .tr__pet--two{
+    height: 35px;
+}
+.tr__pet--three{
+    height: 53px;
+}
+.tr__pet--four{
+    height: 35px;
+}
+.tr__pet--five{
+    height: 33px;
+}
+
+
+.slider__elips--2{
+    margin-bottom: 297px;
+    display: inline-block;
+}
+.pet__button{
+    position: absolute;
+}
+.pet__button--next{
+    left: 47px;
+}
+.pet__button--prev{
+    left: 0px;
+}
+
+
+/*------instrucrion-------*/
+.instruction__title, .instruction__content{
+    width: 593px;
+    height: 61px;
+    text-align: center;
+    margin: 0 auto;
+}
+.instruction__title{
+    margin-top: 108px;
+    margin-bottom: 50px;
+}
+.instruction__content{
+    margin-bottom: 45px;
+}
+.instruction__items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.instruction__item{
+    width: 334px;
+    height: 242px;
+}
+.instruction__video{
+    margin-top: 62px;
+}
+.instruction__img{
+    width: 100%;
+}
+
+
+.instruction__texts{
+    width: 319px;
+    height: 74px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+}
+.item3--text{
+    width: 317px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+.item3--text2{
+    width: 262px;
+    height: 33px;
+}
+
+.instruction__item--svg{
+    margin: 0 auto;
+}
+/*----item--1----*/
+.item--1{
+    position: relative;
+    width: 96px;
+    height: 99.37px;
+    
+    margin-top: 12.13px;
+    margin-bottom: 42.94px;
+}
+.item__star--top{
+    position: absolute;
+    left: 54.069px;
+    top: 0;
+}
+.item__star--center{
+    position: absolute;
+    left: 68.414px;
+    top: 25.38px;
+}
+.item__star--bottom{
+    position: absolute;
+    left: 46.345px;
+    top: 56.276px;
+}
+.item__star--under{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+/*----item--2----*/
+.item--2{
+    position: relative;
+    width: 82.38px;
+    height: 94.84px;
+    
+    margin-top: 16.44px;
+    margin-bottom: 43.46px;
+}
+.arrow__first{
+    position: absolute;
+    left: 70px;
+    top: 0;
+}
+.arrow__second{
+    position: absolute;
+    left: 70.934px;
+    top: 2.079px;
+}
+.layer__first{
+    position: absolute;
+    left: 0;
+    top: 21.748px;
+}
+.layer__second{
+    position: absolute;
+    left: 6.111px;
+    top: 15.363px;
+}
+
+/*----item--3----*/
+.item--3{
+    position: relative;
+    width: 97px;
+    height: 84.7px;
+    margin-top: 29.6px;
+    margin-bottom: 39.92px;
+}
+.left__arrow--1{
+    position: absolute;
+    left: 2.211px;
+    top: 19.275px;   
+}
+.left__arrow--2{
+    position: absolute;
+    left: 0;
+    top: 30.437px;   
+}
+.center__arrow--1{
+    position: absolute;
+    left: 46.98px;
+    top: 0;
+}
+.center__arrow--2{
+    position: absolute;
+    left: 44.77px;
+    top: 11.162px;
+}
+.right__arrow--1{
+    position: absolute;
+    left: 94.859px;
+    top: 19.275px;
+}
+.right__arrow--2{
+    position: absolute;
+    left: 92.647px;
+    top: 32.437px;
+}
+.under_elem--1{
+    position: absolute;
+    left: 2.487px;
+    top: 21.768px;
+}
+.under_elem--2{
+    position: absolute;
+    left: 2.487px;
+    top: 56.633px;
+}
+
+/*------------contacts/map--------------------*/
+.contacts__title{
+    width: 222px;
+    height: 49px;
+    margin-top: 193px;
+}
+.contacts__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.contacts__content{
+    margin-top: 62px;
+    margin-bottom: 158px;
+    width: 432px;
+    height: 384px;
+}
+
+.contact__svg, .contact__text{
+    position: absolute;
+}
+
+.office{
+    margin-bottom: 40px;
+}
+
+.office__comp{
+    position: relative;
+    width: 290px;
+    height: 40px;
+}
+.hint__1{
+    left: -1px;
+    top: 0;
+}
+.hint__2{
+    left: 3.52px;
+    top: 3.249px;
+}
+.office__text{
+    left: 34px;
+    top: 0;
+}
+
+.office__adress{
+    margin-left: 34px;
+    margin-top: 30px;
+    width: 323px;
+    height: 85px;
+}
+
+.email__tel{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+    border-top: #EFEFEF 1px solid;
+}
+.contact__email{
+    position: relative;
+    width: 178px;
+    height: 45px;
+}
+.cont__email--1{
+    left: 0;
+    top: 3.828px;
+}
+.cont__email--2{
+    left: 0;
+    top: 2px;
+}
+.email__text{
+    left: 34px;
+    top: 0;
+}
+
+.contact__tel{
+    position: relative;
+    width: 202px;
+    height: 43px;
+}
+.tel__svg{
+    left: 0;
+    top: 2px;
+}
+.tel__text{
+    top: 0;
+    left: 28px;
+}
+
+.net__marks{
+    display: flex;
+    width: 117px;
+    height: 31.02px;
+    margin-left: 34px;
+    margin-top: 40px;
+}
+.net__mark{
+    position: relative;
+    width: 31.02px;
+    height: 31.02px;
+    margin-right: 12.41px;
+}
+.mark__vk{
+    width: 30.14px;
+}
+.net__mark svg{
+    position: absolute;
+}
+.mark__elips{
+    left: 0;
+    top: 0;
+}
+.telegram__mark{
+    left: 7.386px;
+    top: 8.494px;
+}
+.watsapp_mark{
+    left: 8.494px;
+    top: 8.494px;
+}
+.vk__mark{
+    left: 8.865px;
+    top:  12.409px;
+}
+#map{
+    width: 600px; 
+    height: 400px;
+}
+/*---------------FOOTER--------------*/
+footer{
+    background: #204B67;
+    height: 286px;
+    color: white;
+}
+.footer__wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer__navbar, .footer_networks{
+    display: flex;
+    justify-content: space-between;
+    height: 123px;
+}
+.footer__navbar{
+    padding-top: 50px;
+}
+footer li{
+    display: inline-block;
+    font-size: 14px;
+    height: 40px;
+    padding-top: 6px;
+}
+
+.footer__nav{
+    display: flex;
+    position: relative;
+}
+.footer__nav a{
+    color: white;
+    font-size: 14px;
+}
+.footer__nav a:hover{
+    text-decoration: none;
+}
+
+.footer__nav--tel{
+    display: flex;
+    flex-wrap: wrap;
+    width: 163px;
+}
+.nav__tel{
+    position: relative;
+    width: 164px;
+    height: 38px;
+    text-align: right;
+    margin-left: auto;
+}
+.tel__mark, .nav__tel--number{
+    position: absolute;
+}
+.tel__mark{
+    left: 0;
+    top: 11px;
+}
+.nav__tel--number{
+    left: 17px;
+    top: 5.5px;
+}
+.nav__tel--order{
+    margin-left: auto;
+    margin-top: -30px;
+}
+
+
+.footer_networks{
+    padding-top: 44px;
+}
+.net--privacy{
+    font-size: 14px;
+}
+
+.footer_networks--items{
+    position: relative;
+    width: 377px;
+    height: 36px;
+}
+.network__vk, .network__inst, .network__fb, .xpage__logo{
+    position: absolute;
+}
+.network__vk{
+    left: 0;
+    top: 0;
+}
+.network__inst{
+    left: 52px;
+    top: -36px;
+}
+.network__fb{
+    left: 104px;
+    top: -72px;
+}
+.xpage__logo{
+    left: 283.272px;
+    top: -108px;
+}
+/**/
+.footer_networks--item{
+    position: relative;
+    width: 36px;
+    height: 36px;
+}
+.footer_networks--item svg{
+    position: absolute;
+}
+.item__vk--elips, .item__inst--elips, .item__fb--elips{
+    left: 0;
+    top: 0;
+}
+/*----vk-----*/
+.item__vk{
+    left: 11px;
+    top: 14px;
+}
+/*------inst------*/
+.item__inst--1{
+    left: 12px;
+    top: 12px;
+}
+.item__inst--2{
+    left: 15.265px;
+    top: 15.002px;
+}
+.item__inst--3{
+    left: 20.562px;
+    top: 14.154px;
+}
+/*-----fb---*/
+.item__fb{
+    left: 14.5px;
+    top: 12px;
+}
+
+
+/*-------X-page--------*/
+.xpage__logo{
+    position: relative;
+    width: 92.73px;
+    height: 36px;
+}
+.xpage__logo--items{
+    position: absolute;
+}
+.xpage__word{
+    left: 13.935px;
+    top: 10.932px;
+}
+.xpage__x--rect{
+    left: 8.728px;
+    top: 6.545px;
+}
+.xpage__rect{
+    left: 0;
+}
+
+/*_________FONTS_________________*/
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../font/gotham\ pro/GothamPro-Light.eot');
+    src: local('Gotham Pro Bold'), local('GothamPro-Bold'),
+        url('GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('GothamPro-Bold.woff2') format('woff2'),
+        url('GothamPro-Bold.woff') format('woff'),
+        url('GothamPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../font/gotham\ pro/GothamPro-Light.eot');
+    src: local('Gotham Pro Light'), local('GothamPro-Light'),
+        url('GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('GothamPro-Light.woff2') format('woff2'),
+        url('GothamPro-Light.woff') format('woff'),
+        url('GothamPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../font/gotham\ pro/GothamPro-Black.eot');
+    src: local('Gotham Pro Black'), local('GothamPro-Black'),
+        url('../font/gotham\ pro/GothamPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('../font/gotham\ pro/GothamPro-Black.woff2') format('woff2'),
+        url('../font/gotham\ pro/GothamPro-Black.woff') format('woff'),
+        url('../font/gotham\ pro/GothamPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../font/gotham\ pro/GothamPro-Italic.eot');
+    src: local('Gotham Pro Italic'), local('GothamPro-Italic'),
+        url('../font/gotham\ pro/GothamPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../font/gotham\ pro/GothamPro-Italic.woff2') format('woff2'),
+        url('../font/gotham\ pro/GothamPro-Italic.woff') format('woff'),
+        url('../font/gotham\ pro/GothamPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham Pro Narrow';
+    src: url('../font/gotham\ pro/GothamProNarrow-Bold.eot');
+    src: local('Gotham Pro Narrow Bold'), local('GothamProNarrow-Bold'),
+        url('../font/gotham\ pro/GothamProNarrow-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/gotham\ pro/GothamProNarrow-Bold.woff2') format('woff2'),
+        url('../font/gotham\ pro/GothamProNarrow-Bold.woff') format('woff'),
+        url('../font/gotham\ pro/GothamProNarrow-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../font/gotham\ pro/GothamPro-Medium.eot');
+    src: local('Gotham Pro Medium'), local('GothamPro-Medium'),
+        url('../font/gotham\ pro/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../font/gotham\ pro/GothamPro-Medium.woff2') format('woff2'),
+        url('../font/gotham\ pro/GothamPro-Medium.woff') format('woff'),
+        url('../font/gotham\ pro/GothamPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../font/gotham\ pro/GothamPro-BoldItalic.eot');
+    src: local('Gotham Pro Bold Italic'), local('GothamPro-BoldItalic'),
+        url('../font/gotham\ pro/GothamPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/gotham\ pro/GothamPro-BoldItalic.woff2') format('woff2'),
+        url('../font/gotham\ pro/GothamPro-BoldItalic.woff') format('woff'),
+        url('../font/gotham\ pro/GothamPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../font/gotham\ pro/GothamPro.eot');
+    src: local('Gotham Pro'), local('GothamPro'),
+        url('../font/gotham\ pro/GothamPro.eot?#iefix') format('embedded-opentype'),
+        url('../font/gotham\ pro/GothamPro.woff2') format('woff2'),
+        url('../font/gotham\ pro/GothamPro.woff') format('woff'),
+        url('../font/gotham\ pro/GothamPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../font/gotham\ pro/GothamPro-MediumItalic.eot');
+    src: local('Gotham Pro Medium Italic'), local('GothamPro-MediumItalic'),
+        url('../font/gotham\ pro/GothamPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/gotham\ pro/GothamPro-MediumItalic.woff2') format('woff2'),
+        url('../font/gotham\ pro/GothamPro-MediumItalic.woff') format('woff'),
+        url('../font/gotham\ pro/GothamPro-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../font/gotham\ pro/GothamPro-BlackItalic.eot');
+    src: local('Gotham Pro Black Italic'), local('GothamPro-BlackItalic'),
+        url('../font/gotham\ pro/GothamPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/gotham\ pro/GothamPro-BlackItalic.woff2') format('woff2'),
+        url('../font/gotham\ pro/GothamPro-BlackItalic.woff') format('woff'),
+        url('../font/gotham\ pro/GothamPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham Pro Narrow';
+    src: url('../font/gotham\ pro/GothamProNarrow-Medium.eot');
+    src: local('Gotham Pro Narrow Medium'), local('GothamProNarrow-Medium'),
+        url('../font/gotham\ pro/GothamProNarrow-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../font/gotham\ pro/GothamProNarrow-Medium.woff2') format('woff2'),
+        url('../font/gotham\ pro/GothamProNarrow-Medium.woff') format('woff'),
+        url('../font/gotham\ pro/GothamProNarrow-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../font/gotham\ pro/GothamPro-LightItalic.eot');
+    src: local('Gotham Pro Light Italic'), local('GothamPro-LightItalic'),
+        url('../font/gotham\ pro/GothamPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/gotham\ pro/GothamPro-LightItalic.woff2') format('woff2'),
+        url('../font/gotham\ pro/GothamPro-LightItalic.woff') format('woff'),
+        url('../font/gotham\ pro/GothamPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+/*-----------------------------------media-----------*/
+/*скрываем видео*/
+
+@media(max-width:1200px){
+    .section__wrapper{
+        width: 100%;
+    }
+    .header__wrapper{
+        width: 100%;
+    }
+    .footer__wrapper{
+        width: 100%;
+    }
+    .product__item{
+        width: 30%;
+    }
+    .products__item{
+        margin: 10px auto;
+    }
+    .slider__button--next,.slider__button--prev{
+        display: none;
+    }
+}
+@media (max-width:900px){
+    .product__item{
+        width: 100%;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:992px){
+    h1, h2{
+        font-size: 32px;
+    }
+    .header__video{
+        display: none;
+    }
+    .header{
+        background: rgb(196, 223, 248);
+    }
+
+    .header__nav--tel{
+        display: none;
+    } 
+    .products__item{
+        margin: 10px auto;
+    }
+    /*---------------section samples----------------*/
+    .samples .slider__list{
+        height: 200px;
+    }
+    .slider__img{
+        width: 200px;
+        height: 200px;
+    }
+    
+    /*---------------section instruction------------*/
+    .instruction__item{
+        margin: 0 auto;
+    }
+    #map{
+        width: 500px; 
+        height: 400px;
+    }
+}
+@media(max-width:810px){
+    /*---------------section footer-----------------*/
+    .footer__nav--tel{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    
+    h1, h2{
+        font-size: 25px;
+    }
+    
+    /*---------------section header-----------------*/
+    .header__nav--tel{
+        display: none;
+    }
+    .navbar li{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .nav__item--1{
+        left: 120px;
+    }
+    .nav__item--2{
+        left: 240px;
+    }
+    .nav__item--3{
+        width: 99px;
+        left: 352px;
+    }
+    .nav__item--4{
+        left: 492px;
+    }
+    /*---------------section products---------------*/
+    .products__item{
+        margin: 15px auto;
+    }
+    /*---------------section advantage Преимуществo-*/
+    .advantage__wrapper{
+        margin-bottom: 55px;
+    }
+    .advantage__items{
+        margin: 10px auto;
+    }
+    /*---------------section samples----------------*/
+    .samples .slider__list{
+        height: 157px;
+    }
+    .slider__img{
+        width: 157px;
+        height: 157px;
+    }
+    .samples__title{
+        font-size: 25px;
+        margin-bottom: 57px;
+        margin-top: 80px;
+    }
+    /*---------------section comparison–сравнение---*/
+    .comparison__title{
+        margin-top: 66px;
+        width: 460px;
+    }
+    .comparison__table{
+        margin-top: 77px;
+    }
+
+    /*---------------section pet--------------------*/
+    .slider__elips--2{
+        margin-bottom: 160px;
+    }
+    /*---------------section instruction------------*/
+    .instruction__item{
+        margin: 0 auto;
+    }
+    /*---------------section map contacts-----------*/
+    .contacts__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contacts__title{
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .contacts__content{
+        margin-left: 50px;
+    }
+    /*---------------section footer-----------------*/
+    .footer__nav ul{
+        display: none;
+    }
+
+}
+@media(max-width:690px){
+    
+    /*---------------section samples----------------*/
+    .samples .slider__list{
+        height: 143px;
+    }
+    .slider__img{
+        width: 143px;
+        height: 143px;
+    }
+}
+@media (max-width:576px){
+    body{
+        font-size: 14px;
+    }
+    h1, h2{
+        font-size: 20px;
+    }
+    /*---------------section header-----------------*/
+    .header{
+        min-height: 360px;
+    }
+    .header__nav--tel{
+        display: none;
+    }
+    .navbar li{
+        margin-left: 0;
+        margin-right: 0px;
+        font-size: 14px;
+    }
+    .header__content{
+        width: 100%;
+        margin-top: 95px;
+        margin-bottom: 110px;
+    }
+    .nav__items{
+        top: 50px;
+    }
+    .nav__item--1{
+        left: 0;
+    }
+    .nav__item--2{
+        left: 130px;
+    }
+    .nav__item--3{
+        left: 230px;
+    }
+    .nav__item--4{
+        left: 335px;
+    }
+ /*---------------section advantage Преимуществo-*/
+    .advantage__items{
+        margin: 10px auto;
+    }
+    .advantage__title{
+        margin-top: 24px;
+        margin-bottom: 45px;
+    }
+    /*---------------section samples----------------*/
+    .samples .slider__list{
+        height: 130px;
+    }
+    .samples__title{
+        width: 304px;
+        font-size: 20px;
+        margin-bottom: 43px;
+        margin-top: 60px;
+    }
+    .slider__img{
+        width: 130px;
+        height: 130px;
+    }
+    .slider__elips--1{
+        margin-top: 25px;
+    }
+
+    /*---------------section comparison–сравнение---*/
+    .comparison__title{
+        margin-top: 66px;
+        width: 345px;
+    }
+    .comparison__table{
+        margin-top: 59px;
+    }
+    /*---------------section pet--------------------*/
+    .pet__content{
+        margin-left: auto;
+    }
+    .pet__titlebutton{
+        height: 74px;
+        margin-top: 60px;
+        margin-bottom: 23px;
+    }
+    .pet__title{
+        top: 48px;
+    }
+    .slider__elips--2{
+        margin-bottom: 125px;
+    }
+    /*---------------section instruction------------*/
+    .instruction__title{
+        width: 267px;
+        margin-top: 48px;
+        margin-bottom: 23px;
+    }
+    .instruction__content{
+        width: 300px;
+    }
+    .instruction__item{
+        margin: 0 auto;
+    }
+
+ /*---------------section map contacts-----------*/
+    .contacts__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contacts__title{
+        width: 102px;
+        height: 24px;
+        margin-left: 30px;
+        margin-top: 42px;
+    }
+    .contacts__content{
+        margin-left: 33px;
+        height: 347px;
+        width: 100%;
+    }
+    .office__comp{
+        height: 41px;
+    }
+    .office__adress{
+        margin-left: 58px;
+        width: 199px;
+        height: 96px;
+    }
+    .contact__email{
+        width: 151px;
+        height: 35px;
+    }
+    .contact__tel{
+        height: 37px;
+        margin-top: 25px;
+    }
+    .email__tel{
+        display: block;
+        flex-wrap: wrap;
+        padding-top: 25px;
+        border-top:none;
+    }
+
+    /*---------------section footer-----------------*/
+    .footer__nav ul{
+        display: none;
+    }
+    .xpage__logo{
+        left: 250px;
+    }
+}
